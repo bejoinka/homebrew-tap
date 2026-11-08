@@ -1,8 +1,8 @@
 class Uso < Formula
   desc "Switch AI CLI tool profiles with a single command"
   homepage "https://github.com/bejoinka/uso"
-  url "https://github.com/bejoinka/uso/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "821fbd2751c47fe4ba86544110d1a5f3fdbb08168c109458fea96dd86ec0bf45"
+  url "https://github.com/bejoinka/uso/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "28891dbbf96c3a86efae02cc5d5747d1a1474235170513661759dce33a93c47b"
   license "MIT"
 
   depends_on "go" => :build
@@ -15,11 +15,11 @@ class Uso < Formula
     <<~EOS
       Add to your ~/.zshrc:
 
-        eval "$(uso hook zsh)"
+        eval "$(command uso hook zsh)"
 
       Or ~/.bashrc:
 
-        eval "$(uso hook bash)"
+        eval "$(command uso hook bash)"
 
       Then restart your shell and run:
 
