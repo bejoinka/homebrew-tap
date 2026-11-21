@@ -1,8 +1,8 @@
 class Uso < Formula
   desc "Switch AI CLI tool profiles with a single command"
   homepage "https://github.com/bejoinka/uso"
-  url "https://github.com/bejoinka/uso/archive/refs/tags/v0.7.0.tar.gz"
-  sha256 "cbdf4af4f458716d84454f27659465ac297bfdec25c5d5969a07bc3780658864"
+  url "https://github.com/bejoinka/uso/archive/refs/tags/v0.7.1.tar.gz"
+  sha256 "1db72b76a91127dbd62054d28449cb51904a6ce057026b747d640d481b99787e"
   license "MIT"
 
   depends_on "go" => :build
